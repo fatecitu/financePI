@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu - SupabaseFinance</title>
+  <title>Categorias - SupabaseFinance</title>
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Sweet Alert -->
@@ -19,15 +19,22 @@
     <h1 class="text-xl font-bold">Supabase Finance</h1>
     <div class="flex items-center">
       <a href="lancamentos.html" class="mr-4 flex items-center">Lançamentos</a>
-      <a href="categorias.html" class="mr-4 flex items-center">Categorias</a>
+      <a href="menu.html" class="mr-4 flex items-center">Menu</a>
       <button id="btnLogout" class="bg-red-500 px-3 py-1 rounded">Logout</button>
     </div>
   </header>
-  <main class="flex flex-col items-center justify-center">
-   <img src="images/logo.png" title="Logo do App" class="h-160" />
-   <p class="text-4xl text-green-900">Seja bem vindo ao sistema Financeiro!</p>
-  </main>
+  <table class="w-1/2 border bg-white shadow-lg mx-auto">
+    <caption class="text-2xl text-green-500 my-4 caption-top">Listagem das Categorias</caption>
+    <thead>
+     <tr class="bg-gray-200">
+      <th class="border border-gray-400 p-2">Descrição</th>
+      <th class="border border-gray-400 p-2">Tipo</th>
+     </tr>
+    </thead>
+    <tbody id="tabelaCategorias"></tbody>
+  </table>
+  
 </body>
-<script src="js/mainMenu.js" type="module"></script>
+<script src="js/mainCategorias.js" type="module"></script>
 
 </html>
