@@ -1,3 +1,3 @@
-//Configuração do Supabase
-export const SUPABASE_URL = 'https://uqozgezehmkaxdduygzr.supabase.co'
-export const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVxb3pnZXplaG1rYXhkZHV5Z3pyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA0Nzk2MjcsImV4cCI6MjA3NjA1NTYyN30.FjN4nrPcwBaPqGBuYVE64zbCstCAYOVMiSZ6lgn1ZW8'
+// Configuração centralizada do Supabase
+export const SUPABASE_URL = "https://qzboiomcknozllwlzlwf.supabase.co";
+export const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF6Ym9pb21ja25vemxsd2x6bHdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkxNzI0NzksImV4cCI6MjA3NDc0ODQ3OX0.vksH6P_VuduSOzKp2rjTnONpF4GHBSaXTQoLCslzK_Y";
